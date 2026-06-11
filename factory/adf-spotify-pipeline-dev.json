@@ -1,0 +1,15 @@
+{
+	"name": "adf-spotify-pipeline-dev",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a34e302a-feca-45c4-b1c0-735ed5a048d3",
+		"tenantId": "9cb57c6a-ccb1-4286-b3fe-e7d49fa19c50"
+	}
+}
