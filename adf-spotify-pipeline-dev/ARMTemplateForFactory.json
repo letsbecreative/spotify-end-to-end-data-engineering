@@ -804,14 +804,7 @@
 						}
 					}
 				},
-				"schema": {
-					"type": "object",
-					"properties": {
-						"cdc": {
-							"type": "string"
-						}
-					}
-				}
+				"schema": {}
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/linkedServices/AzureDataLake')]"
